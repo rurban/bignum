@@ -1,7 +1,7 @@
 {
    "abstract" : "Transparent BigNumber support for Perl",
    "author" : [
-      "(C) by Tels L<http://bloodgate.com/> in early 2002 - 2007., Tels <nospam-abuse@bloodgate.com>"
+      "(C) by Tels L<http://bloodgate.com/> in early 2002 - 2007., Peter John Acklam <pjacklam@gmail.com>"
    ],
    "dynamic_config" : 1,
    "generated_by" : "ExtUtils::MakeMaker version 7.1, CPAN::Meta::Converter version 2.150005",
@@ -40,6 +40,6 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.39",
+   "version" : "0.40",
    "x_serialization_backend" : "JSON::PP version 2.27300"
 }
