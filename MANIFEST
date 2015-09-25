@@ -23,6 +23,8 @@ t/00sig.t
 t/01load.t
 t/02pod.t
 t/03podcov.t
+t/auth-bigint-hex.t
+t/auth-bigint-oct.t
 t/big_e_pi.t
 t/bigexp.t
 t/bigint.t
