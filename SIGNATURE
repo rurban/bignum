@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.79.
+signed via the Module::Signature module, version 0.80.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -15,13 +15,13 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 3e34b513bc08cc9724085b26df0767b8d4d8c1b5 BUGS
-SHA1 e6d3e510ecdcd95eee13fdfed61a2c2909c68cc1 CHANGES
+SHA1 57d91e78723ed6d7c5da04965b11ea19ca7b6298 CHANGES
 SHA1 79eb2714ac601ef69639106391036c7d341989de INSTALL
 SHA1 d6a6c30ee6d9ba6b9afab8bbf6a25e1b23c744e0 LICENSE
 SHA1 927bc5f9aeebdef5ef112b208b40a7094ab28141 MANIFEST
 SHA1 4d036a4cde22d6d80f1e4aa41b6951e81c657325 MANIFEST.SKIP
-SHA1 1f293b570b971db16fbdd1bbc81ed70fde9bdbce META.json
-SHA1 7f3c3b619d7f5d8dbec3cb74f5c65669ab66d3cd META.yml
+SHA1 c8d8b4e4063794430c19098cb08b42e69c97b51b META.json
+SHA1 2492aa846abbfe1601f4b91c0d7c948a9693f916 META.yml
 SHA1 5b2e3283b65a17b2929d0845aa1a9e6e0b86f6ec Makefile.PL
 SHA1 8c630804551c0bb41a1cd03f0c7e9c926e3f86f3 README
 SHA1 ffea651b3975289e76187e8d16e3497d36f754bb TODO
@@ -33,11 +33,11 @@ SHA1 76efdca3603159e0ae0e18f19fe72a0211a69529 inc/Module/Install/Makefile.pm
 SHA1 2e33e87882d60db3913da6284dd5295e5315e18a inc/Module/Install/Metadata.pm
 SHA1 c830b819e61bda5eca077c6291293bba61b3b9f2 inc/Module/Install/Win32.pm
 SHA1 cb52b9d6f88d512d448a6f35ed0af0d1201a134b inc/Module/Install/WriteAll.pm
-SHA1 bcc14e860bd18eba70b1a451d558c53031eacf40 lib/Math/BigFloat/Trace.pm
-SHA1 5abeb078ca2add2d538f786071aab8a1474470de lib/Math/BigInt/Trace.pm
-SHA1 b73fe9019e96ef3a9330eb70102c2f605f33d640 lib/bigint.pm
-SHA1 34a6cb002d8bbf72750b7350f10b0383f6bd1264 lib/bignum.pm
-SHA1 3cf67da9e76c882525690ad0a0d74e045dd99b3a lib/bigrat.pm
+SHA1 08e6f2cc9f8420f5ba551c2d04971e0ff8330672 lib/Math/BigFloat/Trace.pm
+SHA1 e8b322e8a968f25314705e0fec1628fc1c267567 lib/Math/BigInt/Trace.pm
+SHA1 e8c21ffd51f847cfa71f451c07e52484a48c674d lib/bigint.pm
+SHA1 a5fa3f55e548333d468e0e115fbbb127dcda79f5 lib/bignum.pm
+SHA1 1301a2504092a124bff53646bc61af9c9ae3d7a0 lib/bigrat.pm
 SHA1 a2d393f9d265801f8ef022725d03f83b616b2fe1 t/00sig.t
 SHA1 4564e2c5605e7568738286358e4a49c8f27c38e6 t/01load.t
 SHA1 237e24044b9cc602f739d4eff3f6f1bd3b51f16e t/02pod.t
@@ -45,7 +45,7 @@ SHA1 51ca22f1945595e0272dbc26bca2c1d4f8231568 t/03podcov.t
 SHA1 af0aa4628e18d980b985a4bd22db6b4f0467125b t/author-bigint-hex.t
 SHA1 c3bc8706bef21cdf96564bae9b7a4a1f1a8b5f2c t/author-bigint-oct.t
 SHA1 ed3e805322e1f1799e2e68b65a1c0c34d5e78b71 t/big_e_pi.t
-SHA1 a1c29b9c989b1000c4d4e9289c155626b10b68ca t/bigexp.t
+SHA1 06ba8137ea1136b3a86862effd90bd23c60360ee t/bigexp.t
 SHA1 6ec6c37fd18ec538940a90c3cb4f7ea438b50817 t/bigint.t
 SHA1 2935aa58821ff53327399329dbcf8194e92e5772 t/bignum.t
 SHA1 799432d401aeba8bf84b4ea93adda6ebcc7ce9ee t/bigrat.t
@@ -69,11 +69,11 @@ SHA1 e0aa84c76b7c2167b53f36147f752adf9d26f1e6 t/scope_r.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJWi6lkAAoJEGcmPl2fr166utIH/2tzmcUSC0UDeviHK06Uc2/r
-z58FJRRU0OHcYsCxuVxQ0tMPViLig92X0Jk9t7itkdt280E9rCiOQVTpVDCuh1+c
-wR0h+4E/9x509uJfnqGqj3IBCZPZsTsfkP7XQGyTeeDEE3Xb+JASHBWrl/zcm6YH
-Nzb1zVfasJ8okocx9m5LflMF9SMOooeQaQwv+hH8QBmiYE0Sv3/xWnDqJv+yb4vZ
-grbMMx3MUjBBe1ogxzCUEFTBBu7saDwD2bn3AVNRXI6OfziEEPRd+6pfbgSMxTuj
-Wgikeu8WtyY0ECQ8EOwRLiahK+6OsecbKvTxW6jhTu4hZliWTYBE/b7UNDuYkR8=
-=p9aB
+iQEcBAEBAgAGBQJXgS8bAAoJEGcmPl2fr166hjAH/2vc/SARN8+COJtMN00fSR38
+KvSSkkpWv2tUUuwaHt1qyRPG06pQhKfSlBe6BmIg3fRTr/209Ckvu8SoTraRIlPY
+bcPI6yb3akmihgEcTnyBKMbkfcjH8BQ5qRmF1iaL+7Lhxxzp7tWNpm/pZbigyfHv
+ddtw6v28ISHa47xhqkM8YJaDYPMIzjwz06SbmmTe2ry/BQovhwo4NQQTLhJhhtRa
+ebi4I6su5Dt+H8uQbyrdP8ygy4wPjbesvBLWyX5Bv3htDt41j7U4p8zMgu1yyqIH
+ZdR1l8M+ZU3+PqE5jTWU2YJPs2v8V3f3RE5oYS9TuKMJH1lgI2ygQORT2o3uKnE=
+=X/Uo
 -----END PGP SIGNATURE-----
