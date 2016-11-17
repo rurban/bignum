@@ -4,7 +4,7 @@
       "(C) by Tels L<http://bloodgate.com/> in early 2002 - 2007., Peter John Acklam <pjacklam@gmail.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 7.18, CPAN::Meta::Converter version 2.150005",
+   "generated_by" : "ExtUtils::MakeMaker version 7.24, CPAN::Meta::Converter version 2.150010",
    "license" : [
       "perl_5"
    ],
@@ -23,7 +23,7 @@
       "build" : {
          "requires" : {
             "ExtUtils::MakeMaker" : "6.59",
-            "Test::More" : "0.62"
+            "Test::More" : "0.47"
          }
       },
       "configure" : {
@@ -40,6 +40,6 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.43",
+   "version" : "0.44",
    "x_serialization_backend" : "JSON::PP version 2.27400"
 }
