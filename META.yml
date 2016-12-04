@@ -1,10 +1,9 @@
 ---
-abstract: 'Transparent BigNumber support for Perl'
+abstract: unknown
 author:
-  - '(C) by Tels L<http://bloodgate.com/> in early 2002 - 2007., Peter John Acklam <pjacklam@gmail.com>'
+  - 'Peter John Acklam <pjacklam@gmail.com>'
 build_requires:
-  ExtUtils::MakeMaker: '6.59'
-  Test::More: '0.47'
+  ExtUtils::MakeMaker: '0'
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 1
@@ -19,8 +18,9 @@ no_index:
     - t
     - inc
 requires:
-  Math::BigInt: '1.999712'
+  Math::BigInt: '1.999718'
   Math::BigRat: '0.12'
+  Test::More: '0.47'
   perl: '5.006'
-version: '0.44'
+version: '0.45'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'

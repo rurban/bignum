@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.80.
+signed via the Module::Signature module, version 0.81.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,30 +14,21 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 3e34b513bc08cc9724085b26df0767b8d4d8c1b5 BUGS
-SHA1 3db3c3ee94f07a71826be0a958d55c195223ebc2 CHANGES
-SHA1 79eb2714ac601ef69639106391036c7d341989de INSTALL
-SHA1 d6a6c30ee6d9ba6b9afab8bbf6a25e1b23c744e0 LICENSE
-SHA1 927bc5f9aeebdef5ef112b208b40a7094ab28141 MANIFEST
+SHA1 af07bf0c1a9d55969ea98f36249449dfc394eed6 BUGS
+SHA1 3e397f17ed766b7c1f45d30a2e9b88e4c54dcc9a CHANGES
+SHA1 d7c83d8f89b92a3262a01eb2778d39402e77263a LICENSE
+SHA1 53ff562ba2eecd551ef6aee56f6f391031a3c912 MANIFEST
 SHA1 4d036a4cde22d6d80f1e4aa41b6951e81c657325 MANIFEST.SKIP
-SHA1 21ce6104b7190b61bf88acbc1f50ef7be6f01cf5 META.json
-SHA1 7328f86d7444d1c4e0204d8bc6db000dc07a2c6e META.yml
-SHA1 ff2b0c2efbfb324add3290c13ee3dd5af9a3c4e4 Makefile.PL
-SHA1 8c630804551c0bb41a1cd03f0c7e9c926e3f86f3 README
-SHA1 ffea651b3975289e76187e8d16e3497d36f754bb TODO
-SHA1 05a17c51aceb6435a1eac17137f19911a09e5050 inc/Module/Install.pm
-SHA1 dc73c2baf4357ad1cc884146147f557a50a29300 inc/Module/Install/Base.pm
-SHA1 c7f311a5bc5a7f96e9105d5f16a0e13fc596899d inc/Module/Install/Can.pm
-SHA1 8c8f9ff5b0a536af59814e16a901ce39fbc23299 inc/Module/Install/Fetch.pm
-SHA1 4f77eb02e104324b08a047585c498146b045613b inc/Module/Install/Makefile.pm
-SHA1 2f5be6af6098acf6d786a4a7299a34d0c6c04ef9 inc/Module/Install/Metadata.pm
-SHA1 aa6723cc4a8d4475026f6ceb28e1f16459e8a11b inc/Module/Install/Win32.pm
-SHA1 6661285caedfe012cb5a1ca915a422ffc292ae2b inc/Module/Install/WriteAll.pm
-SHA1 d5ea52799cb733ff6e750831e3a6efb3d43daf4a lib/Math/BigFloat/Trace.pm
-SHA1 413fccdc906bea03d0a8cb1cd702d218799d65d2 lib/Math/BigInt/Trace.pm
-SHA1 d919099aa7cc45fa46a0f16236a8c573fd4cbd2d lib/bigint.pm
-SHA1 9a847fc58ff838aa03240d21b161d6e6898e1e9e lib/bignum.pm
-SHA1 67e556261d6c1b8b816c0001d0e600e6a3243983 lib/bigrat.pm
+SHA1 840a93d1f7e7e9cbcffd36a7b7227521c25e2389 META.json
+SHA1 dda620d2ff6159a3ad7e066a86685b1ff726a181 META.yml
+SHA1 801b0da8621bd0313858ffcae669967392272c32 Makefile.PL
+SHA1 fa6d74767423bf79cfaedb3e461160d1faeab91e README
+SHA1 0070e1ca5b12be8948c08e62e62c98a2df7410d4 TODO
+SHA1 30919fbd329613836130635f60fbe3d0e74f9533 lib/Math/BigFloat/Trace.pm
+SHA1 11aa968f841ace32752cc8d1ab7920894a004830 lib/Math/BigInt/Trace.pm
+SHA1 95794921a8cdb4cbd798e2ebca095864ca534612 lib/bigint.pm
+SHA1 dcaf84229d7c8c0f29f9fd1a9064c3ce6bb9bd2f lib/bignum.pm
+SHA1 d84ccbb3905fea14ce7a19ddad87bd6ebc199438 lib/bigrat.pm
 SHA1 a2d393f9d265801f8ef022725d03f83b616b2fe1 t/00sig.t
 SHA1 4564e2c5605e7568738286358e4a49c8f27c38e6 t/01load.t
 SHA1 237e24044b9cc602f739d4eff3f6f1bd3b51f16e t/02pod.t
@@ -57,7 +48,7 @@ SHA1 ed6ff44bd1c726f1c87cb39e200116c5472d2550 t/bninfnan.t
 SHA1 00679525b4719dabd088a7f7c8d8e758cefbc140 t/br_lite.t
 SHA1 6480aa7520b00b34c78c84963ce972348627265c t/brinfnan.t
 SHA1 39c5a2b06ca0299cbc5c846e9347194610e8ec1c t/in_effect.t
-SHA1 964e9d712bf9176077284a325cb2da5123ef144e t/infnan.inc
+SHA1 65215b3093ffbbbdc432d62abac0e1768eb34969 t/infnan.inc
 SHA1 9995d3788a1561f0a6e30178e9f93a425726ff0d t/option_a.t
 SHA1 602522ad22998581c2b5f5a7e0cfc26343b6e1a0 t/option_l.t
 SHA1 6474ca84364a126496999f2d6c47e6c0e740092b t/option_p.t
@@ -68,11 +59,11 @@ SHA1 6fb36d527514933d0a7457c95c13e863543250ef t/scope_i.t
 SHA1 e0aa84c76b7c2167b53f36147f752adf9d26f1e6 t/scope_r.t
 -----BEGIN PGP SIGNATURE-----
 
-iQEcBAEBAgAGBQJYLeb5AAoJEGcmPl2fr166EfYH/jym2ryodIktlhTuobN2dePS
-ISAk6oOaQGBNgHgqMLz2B7DpizfTlDI5U9GJJ7pSkYv2KfEdotiglMVXYKcWqQQF
-KgNH5pP+x2DJ+YGkkzLOv78i1GmFMgIOj0bqr5h9+VHpsglGZiA3gnuIwwlhVITw
-Qs++4uJEeuhLeMS48dCCqFEKk8q7jfa7PaoDA266vUIP31yU4/gL8W/MaUr3/ovQ
-Z+eWFTWYlvEy087iCl5eM1nJW6EYuRwkfq1bk5c4Q+EetAw6TP5hO6ADTUA7E+4Y
-fP30QdYCKw/E+dy++0Z92wwVJ6sAYzHtCuhzTQCNkoWrLKfxV0kspS5vDP8e4r0=
-=iYP1
+iQEcBAEBAgAGBQJYQ9wqAAoJEGcmPl2fr166QaAIAI/PBiGDd0zXisLMeXs6qJHd
+bjPn9+XkL+MG8Z8EstX30eMmEtstm+s8K7wHGxbtD74aNmrwJnxMgy0owerAztVA
+0CQg7tPjjaUjA1anJIDTvobyjnYzEwYvsjomd6xbM6KFwmKbMRYo1VfD2pBWZQfW
+qR76Xuef0+2kza1crLg06bWYHViaBWCEKu91lUhamqvqQVqgOmcq11aQ/zt9cVtS
+C8Zs/BS+Csfk9A2XneTkw4INvEzLA5ZJuLWivTwNh2aCPSCZkBy4XKp3j5ZZu39W
+vmB4LgoGNtI22y/Yi/gFglqlNF7ewB3mqv6vxuJ9a6fLvKd3X4qO1Xokg211NuM=
+=Nogp
 -----END PGP SIGNATURE-----
