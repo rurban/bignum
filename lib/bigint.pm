@@ -2,7 +2,8 @@ package bigint;
 
 use 5.010;
 use strict;
-use warnings;
+#use warnings;
+use cperl;
 
 our $VERSION = '0.51c';
 $VERSION =~ s/c$//;
